@@ -1,0 +1,81 @@
+/* initialisation */
+* {
+  padding: 0;
+  margin: 0;
+}
+/* 2nd part */
+.Cards {
+  margin: 5%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.mini-nav {
+  display: flex;
+  justify-content: space-between;
+}
+.Delete {
+  border: none;
+  background-color: transparent;
+}
+.Like {
+  border: none;
+  background-color: transparent;
+}
+.fa-times:hover {
+  color: gray;
+}
+/* *************************************************************** */
+/* minus part */
+.Minus-btn {
+  display: inline-block;
+  padding: 0px 10px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+.Minus-btn:hover {
+  background-color: #3e8e41;
+}
+.Minus-btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/* plus part */
+.Plus-btn {
+  display: inline-block;
+  padding: 0px 8px;
+  font-size: 15px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #4caf50;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 5px #999;
+}
+.Plus-btn:hover {
+  background-color: #3e8e41;
+}
+.Plus-btn:active {
+  background-color: #3e8e41;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+/* *************************************************************** */
+/* 3rd part */
+.Total {
+  display: flex;
+  justify-content: center;
+  padding: 0% 2% 10% 2%;
+}
